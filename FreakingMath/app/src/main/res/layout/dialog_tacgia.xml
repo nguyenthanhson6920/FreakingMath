@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:background="@drawable/gocbotrontacgia"
+    android:layout_height="400dp"
+    tools:context=".Controller.GameOver">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/shojumaru"
+        android:gravity="center"
+        android:text="Thông tin"
+        android:textColor="#0C0C0C"
+        android:textSize="30sp"
+        tools:targetApi="jelly_bean" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="3dp"
+        android:background="#FF6600"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="App Game FreakingMath"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textColor="#FF6633"
+        android:textSize="20sp"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Cách chơi : Ấn Chơi ngay,chọn chế độ chơi. Cuối cùng Chọn mức độ chơi."
+        android:fontFamily="@font/alfa_slab_one"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Phát triển : Nguyễn Thanh Sơn"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textColor="#FF6633"
+        android:textSize="15sp"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Khuyến cáo : Không nên chơi quá 4h một ngày gây ảnh hưởng đến sức khỏe."
+        android:fontFamily="@font/alfa_slab_one"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        tools:ignore="UnusedAttribute" />
+
+</LinearLayout>

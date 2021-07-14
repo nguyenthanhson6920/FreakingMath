@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:background="#789"
+    android:layout_height="400dp"
+    tools:context=".Controller.GameOver">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:text="Âm lượng"
+        android:textColor="#00B8D4"
+        android:textSize="30sp"
+        tools:targetApi="jelly_bean" />
+
+    <SeekBar
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:thumb="@mipmap/ic_launcher">
+
+    </SeekBar>
+
+
+
+</LinearLayout>

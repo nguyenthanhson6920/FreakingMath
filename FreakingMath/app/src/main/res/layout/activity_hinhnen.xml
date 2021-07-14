@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#789"
+    android:layout_height="match_parent"
+    tools:context=".Controller.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#36c">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/gocbotron3"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/ic_reply_black_24dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/shojumaru"
+            android:gravity="center"
+            android:text="Hình nền"
+            android:textColor="#F8F5F0"
+            android:textSize="50sp"
+            tools:ignore="UnusedAttribute" />
+        <Button
+            android:id="@+id/ncbien"
+            android:textSize="25sp"
+            android:layout_width="260dp"
+            android:textColor="#fff"
+            android:layout_height="50dp"
+            android:background="@drawable/gocbotron2"
+            android:layout_margin="10dp"
+            android:text="nước biển"/>
+        <Button
+            android:id="@+id/lacay"
+            android:textSize="25sp"
+            android:layout_width="260dp"
+            android:textColor="#fff"
+            android:layout_height="50dp"
+            android:background="@drawable/gocbotron"
+            android:layout_margin="10dp"
+            android:text="lá cây"/>
+        <Button
+            android:id="@+id/red"
+            android:textSize="25sp"
+            android:layout_width="260dp"
+            android:textColor="#fff"
+            android:layout_height="50dp"
+            android:background="@drawable/gocbotron1"
+            android:layout_margin="10dp"
+            android:text="đỏ"/>
+        <Button
+            android:id="@+id/luc"
+            android:textSize="25sp"
+            android:layout_width="260dp"
+            android:textColor="#fff"
+            android:layout_height="50dp"
+            android:background="@drawable/gocbotronback"
+            android:layout_margin="10dp"
+            android:text="lục"/>
+    </LinearLayout>
+</LinearLayout>
